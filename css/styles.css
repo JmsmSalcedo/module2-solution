@@ -1,18 +1,20 @@
 
 
 .box {
+
 	background-color: gray;
 	border: 1px solid black;
-	padding: 10px;
 	font-family: sans-serif;
 	box-sizing: border-box;
 	margin: 10px;
 	position: relative;	
+	padding: 5px;
 	text-align: justify;
+
 }
 
 .row {
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -43,7 +45,7 @@ h1 {
 	
 	.col-md-6, .col-md-12 {
 		
-		float: left;
+		float: left;	
 		
 	}
 
@@ -71,24 +73,27 @@ h1 {
 
 p.tipo {
 
-	position: relative;
-	left: 70%;
-	width: 20%;
+	position: absolute;
+	top: -18px;
+	right: 0px;
+	width: 30%;
 	border: 1px solid black;
 	text-align: center	;
 	box-sizing: border-box;
+
 }
 
 
-.tipo.chicken {
+
+.tipo.android {
 	background-color: hotpink;
 }
 
-.tipo.beef {
+.tipo.web {
 	background-color: red;
 	color: white;
 }		
 
-.tipo.sushi {
+.tipo.java {
 	background-color: yellow;
 }
