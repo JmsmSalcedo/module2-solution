@@ -1,16 +1,21 @@
-
+*{
+	box-sizing: border-box;
+}
+html, body {
+ 	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 
 .box {
 
 	background-color: gray;
 	border: 1px solid black;
 	font-family: sans-serif;
-	box-sizing: border-box;
 	margin: 10px;
 	position: relative;	
 	padding: 5px;
 	text-align: justify;
-
 }
 
 .row {
@@ -19,23 +24,15 @@
 	margin-right: auto;
 }
 
-h1 {
-	text-align: center;
-}
 
 
 
 @media (min-width: 992px) {
 	.col-lg-4 {
-
 		float: left;
-
 	}
-
 	.col-lg-4 {
-
-	width: 33.33%;
-
+		width: 33.33%;
 	}
 
 }
@@ -44,15 +41,12 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
 	
 	.col-md-6, .col-md-12 {
-		
 		float: left;	
-		
 	}
 
 	.col-md-12 {
 		width: 100%;
 	}
-
 	.col-md-6 {
 		width: 50%;
 	}
@@ -60,11 +54,9 @@ h1 {
 }
 
 @media screen and (max-width:  767px){
-	.col-sm-12 {
-		
+	.col-sm-12 {	
 		float: left;
 	}
-
 	.col-sm-12 {
 		width: 100%;
 	}
